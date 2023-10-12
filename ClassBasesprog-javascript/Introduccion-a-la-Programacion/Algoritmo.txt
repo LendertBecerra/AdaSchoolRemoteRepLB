@@ -1,0 +1,26 @@
+
+Tarea a Ejecutar: Preparar una Arepa
+
+Unidad: Algoritmo I
+
+Paso 0 = Indicar que debe ejecutar cada accion por orden/secuencia y establecer prioridad.
+Paso 1 = Ir a la cocina
+ Condicion si = Si ya esta en la cocina, omitir paso.
+Paso 2 = Detectar si en su alrededor posee los siguientes instrumentos (Agua, Bol, sal, Arina, Aceite, Carten, Cocina, yesquero, cuchara, plato)
+ Condicion Si = Si ya tiene todos los objetos, omitir paso
+ Condicion No = Los objetos faltantes, indicar al programa que lo debe buscar.
+Paso 3 = Encender una ornilla, nivelandola a fuego bajo y Colocar la carten arriba de la ornilla encendida de la cocina.
+Paso 4 = hechar una cucharada de Aceite a la carten.
+Paso 5 = en un bol, incluir 1/4 de agua, mas 1/2 cucharada de sal y mesclar.
+Paso 6 = En el mismo bol con agua y sal, agregar la harina necesaria hasta que la textura de la masa quede homogenea.
+Paso 7 = Esperar 5 minutos.
+Paso 8 = Realizar esferas del tamaño de la palma de la mano con la masa realizada, y aplanarlas con la llema de los dedos.
+Paso 9 = Colocar la masa de la forma realizada en la carten y nivelar el fuego a medio
+Paso 10 = Ejecutar el mismo proceso con la masa restante (Actividad en segundo plano).
+ Condicion si = Si el carten esta lleno, parar de ejecutar el paso 10.
+ Condicion no = si el carten esta vacio, Repetir el paso 10.
+Paso 11 = Voltear la arepa esta tostada por la cara cocinando (Actividad Primer plano).
+ Condicion si = Si la arepa esta cocinada por ambas caras retirarlas y colocarlas en un plato.
+ Condicion no = Si la arepa le falta otra cara por cocinar, repetir el paso 11 hasta lograr la coccion de tostado o semi/tostado.
+Paso 12 = servir el plato con arepa en la mesa. "Esta servido"
+

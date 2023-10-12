@@ -1,0 +1,42 @@
+Tarea a Ejecutar: Programa para administrar las Reservas de Un restaurante.
+
+Unidad: Algoritmo I
+
+Paso 0 = Indicar que debe ejecutar cada accion por orden/secuencia y establecer prioridad.
+Paso 1 = En una Aplicacion diseñada Para reservar mesas del Restaurante Domino,s Pizza. S.A. Se muestra al Usuario los siguientes campos para rellenar datos.
+            PasoOpcion A = Muestra un boton de (Login) con un mensaje "Para usuarios ya Registrados"
+            PasoOpcion B = Muestra un boton de (Register) con un mensaje "Registrarse si es su primera vez"
+            PasoOpcion C = Muestra un boton de (Exit) con un mensaje "Salir"
+        Paso 1.1 = Seleccionar Una opcion que este disponible para su estado actual. 
+            !Si es primera vez = Register!, !Si es Segunda vez o mas = Login!, !Si no desea Reservar = Exit!
+    Paso B1 = Mostrar en una Interfaz los siguientes campos y rellenar lo solicitado:
+        - Campo de texto a rellenar (First Name)
+        - Campo de texto a rellenar (Last Name)
+        - Campo de texto a rellenar (Mail)
+        - Campo de texto a rellenar (Number Phone)
+        - Campo de texto a rellenar (Password)
+        - Campo de Verificacion de Acuerdos de Licencia y Uso (Aceptar) Mostrar Mensaje Con Link proporcional a un documento Drive .doc "Acuerdo y usos Legitimos de la App" 
+        Paso B1.1 = Despues de Rellenar todos los Campos Dirigirse a una ventana nueva para confirmar Correo Y Numero Telefonico.
+    Paso B2 = En la Interfas de validacion de datos Seleccionar un Campo a Validar, con un mensaje "Selecciona su campo de validacion de preferencia".
+            !Campo a validar por telefono = Number Phone!, !Campo a validar por correo = Mail!, !Regresar Menu Principal = Hub!
+        - Si selecciona campo por telefono = Agarrar el telefono, Buscar el Mensaje proporcionado con la presentacion de nuestra empresa Domino,s Pizza. S.A. y Copiar el codigo Alfanumerico de 6 valores y rellenarlo en el campo solicitado por la app.
+        - Si selecciona campo por Mail = Agarrar el telefono, Buscar el Mail proporcionado con la presentacion de nuestra empresa Domino,s Pizza. S.A. y Copiar el codigo Alfanumerico de 6 valores y rellenarlo en el campo solicitado por la app.
+        - Si Selecciona Regreser al Menu Principal = Regresa al Usuario a (Paso B1)
+        Paso B2.1 = Al estar el campo de verificacion rellenado, aparece la opcion de (Confirmar Codigo), Automaticamente El dato que se utilizo Para verificar la vinculacion de la cuenta con el dato personal, sera su opcion de recuperacion y se regresara a la interfaz principal del (Paso 1).
+    Paso A1 = Se mostrara Una Interfaz donde solicita al usuario rellenar los datos registrades de su Usuario que requiera solamente ese campo.
+            - Campo de texto a rellenar (Nomber Phone/Mail) Mensaje "Ingresar el dato verificado"
+            - Campo de texto a rellenar (Password) Mensaje: "Contraseña"
+        Paso A1.1 = Al rellenar los campos solicitados, seleccionar aceptar.
+Paso 2 = Mostrar una interfaz de Usuario donde Pueda visualizar el calendario con los horarios disponibles de reserva y las siguientes Opciones: (Solicitar Reserva), (Registro de Gastos), (Perfil), (Reglas De Reserva), (Logout).
+Paso 3 = Seleccionar la Opcion (Solicitar Reserva).
+Paso 4 = Mostrar los horarios disponibles en interfas de calendario por bloque de 1 hora, dia y por mesa.
+Paso 5 = Cargar en su cuenta Los dias y horas que desea reservas, la mesa, y la cantida de personas a invitar (Las cantidades son a tu preferencia)
+    - Campo de texto a rellenar (Bloque a Reservar) 
+    - Campo de texto a rellenar (Cantidad de personas) Mensaje: "Se permite un maximo de 4 personas"
+    Paso 5.1 = Al rellenar todos los campos, mostrara un aviso si desea confirmar cargar las Horas con los dias seleccionados, mostrara un coste total por las reservas seleccionadas.
+Paso 6 = Al confirmar la reserva, se enviara una notificacion a tu dato verificado (Number Phone/Mail) a los dias y horas reservados con la cantidad de personas, generado con un codigo serial que servira para reclamar tu mesa.
+    Paso 6.1 = Se mostrara una notificacion al usuario por el contacto verificado, un dia previo si desea mantener la reserva o cancelarla.
+Paso 7 = La aplicacion se actualizara la interfaz de calendario, indicando elos bloques ocupados y disponibles, por consecuencia ya podra solicitar su bloque reservado en su dia y hora correspondiente.
+
+Nota: Se agregaron multiples opciones para, ver historial de gastos por reserva, ver perfil de usuario en tal caso de modificar sus datos o validar otro dato, Ver las reglas que se rigen las reservas para manejar los costos, las politicas  de reserva, sanciones y promociones o descuentos para el usuario.
+Estas funciones no fueron implementadas, solamente se realizo una guia basica de como realizar una reserva en dicha app.
