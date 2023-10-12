@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lista de Contactos</title>
+</head>
+        <body>
+            <h1>Lista de Contactos</h1>
+
+            <!-- Botón para mostrar los contactos actuales -->
+            <div>
+                <button id="mostrarContactos">Mostrar Contactos Actuales</button>
+            </div>
+
+            <!-- Entrada de texto para agregar un nuevo contacto -->
+            <div>
+                <input type="text" id="nuevoContacto" placeholder="Nombre y Apellido">
+                <button id="agregarContacto">Añadir Nuevo Contacto</button>
+            </div>    
+
+           
+            <!-- Lista de contactos con checkboxes para eliminar -->
+            <div id="eliminarContacto">
+                <label><input type="checkbox" value="Juan Pérez"> Juan Pérez</label>
+                <label><input type="checkbox" value="María López"> María López</label>
+                <label><input type="checkbox" value="Carlos González"> Carlos González</label>
+            </div>
+            <button id="eliminarContactoBtn">Eliminar Contacto Existente</button>
+
+            <!-- Lista de contactos con checkboxes para eliminar -->
+            <div id="eliminarContacto">
+                <button id="actualizarLista">Actualizar Lista</button>
+                <p>Actualizara los Contactos Chequeables Para Saber los contactos que se Pueden Eliminar</p>
+            </div>
+
+            <!-- Div para mostrar los contactos -->
+            <div id="contactos"></div>
+
+            <script src="Lista-de-Contactos1.js"></script>
+        </body>
+</html>
